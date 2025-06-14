@@ -15,3 +15,20 @@
     font-weight: 700;
     font-style: normal;
 }
+
+@layer base {
+    body {
+        @apply w-full bg-white
+    }
+
+    button {
+        @apply cursor-pointer transition-colors text-nowrap text-sm font-bold
+    }
+}
+
+
+@layer utilities {
+    .container-center {
+        @apply w-full max-w-7xl mx-auto px-4
+    }
+}
