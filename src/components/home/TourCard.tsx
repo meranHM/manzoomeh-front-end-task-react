@@ -66,7 +66,7 @@ const TourCard = ({ imgSrc, alt, title, city, hotelRating, flight, price, durati
                 {duration}
             </p>
             <p className="text-xs">
-                {foundDate}
+                Found {foundDate} ago
             </p>
         </div>
     </article>
