@@ -10,7 +10,7 @@
     }
 
     button {
-        @apply cursor-pointer transition-colors text-nowrap text-sm font-bold
+        @apply cursor-pointer transition-colors text-nowrap text-sm font-bold font-manrope
     }
 
     ::placeholder {

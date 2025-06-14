@@ -32,7 +32,12 @@ const SearchInputBox = ({ label, type = "text", name, placeholder, id, extraClas
             className={`py-[1px] mx-auto ${extraClasses || ""}`}
         >
             {options.map((opt) => (
-            <option key={opt.value} value={opt.value}>{opt.label}</option>
+                <option 
+                    key={opt.value} 
+                    value={opt.value}
+                >
+                    {opt.label}
+                </option>
             ))}
         </select>
         ) : (
