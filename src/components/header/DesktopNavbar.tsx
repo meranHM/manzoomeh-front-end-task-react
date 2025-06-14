@@ -1,6 +1,6 @@
 import Divider from "./Divider"
 import desktopLogo from './../../assets/logos/desktop-logo.png'
-import LoginBtn from "./LoginBtn"
+import ButtonOne from "./ButtonOne"
 
 const DesktopNavbar = () => {
   return (
@@ -39,7 +39,9 @@ const DesktopNavbar = () => {
         <li><a href="#">Contact us</a></li>
         </ul>
 
-        <LoginBtn />
+        <ButtonOne>
+            Login / Register
+        </ButtonOne>
     </div>
   )
 }

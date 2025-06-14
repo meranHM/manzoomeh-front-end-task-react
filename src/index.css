@@ -13,6 +13,10 @@
         @apply cursor-pointer transition-colors text-nowrap text-sm font-bold
     }
 
+    ::placeholder {
+        @apply text-xs
+    }
+
     /* Footer */
     footer p,
     footer a,
@@ -33,6 +37,15 @@
 @layer utilities {
     .container-center {
         @apply w-full max-w-7xl mx-auto px-4
+    }
+
+    /* Hero Section */
+    .serviceBtn {
+        @apply p-2 bg-transparent text-black rounded-pill hover:bg-orange-brand hover:text-white transition-colors
+    }
+
+    .searchInputBox {
+        @apply flex items-center border border-gray-medium rounded-xl px-2 py-3 placeholder:text-xs overflow-hidden w-full lg:w-auto
     }
 
 }
