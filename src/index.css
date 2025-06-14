@@ -2,19 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: "Dana";
-    src: url("/fonts/dana-regular.woff2") format("woff2");
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Dana";
-    src: url("/fonts/dana-bold.woff2") format("woff2");
-    font-weight: 700;
-    font-style: normal;
-}
+@import "./fonts.css";
 
 @layer base {
     body {
@@ -24,6 +12,21 @@
     button {
         @apply cursor-pointer transition-colors text-nowrap text-sm font-bold
     }
+
+    /* Footer */
+    footer p,
+    footer a,
+    footer address {
+        @apply font-dana text-gray-suva
+    }
+
+    footer a {
+        @apply hover:text-gray-suva/80
+    }
+
+    footer h4 {
+        @apply text-white font-medium transition-colors
+    }
 }
 
 
@@ -31,4 +34,5 @@
     .container-center {
         @apply w-full max-w-7xl mx-auto px-4
     }
+
 }

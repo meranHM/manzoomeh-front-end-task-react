@@ -1,7 +1,7 @@
 import { useState } from "react"
 
-import MobileNavbar from "./header/MobileNavbar"
-import DesktopNavbar from "./header/DesktopNavbar"
+import MobileNavbar from "./MobileNavbar"
+import DesktopNavbar from "./DesktopNavbar"
 
 
 const Header = () => {
