@@ -47,13 +47,33 @@
         @apply w-full max-w-7xl mx-auto px-4
     }
 
-    /* Hero Section */
     .serviceBtn {
         @apply p-2 bg-transparent text-black rounded-pill hover:bg-orange-brand hover:text-white transition-colors
     }
 
     .searchInputBox {
         @apply flex items-center border border-gray-medium rounded-xl px-2 py-3 placeholder:text-xs overflow-hidden w-full lg:w-auto
+    }
+
+    .slider {
+        @apply w-full h-1 bg-[#C7DEEA] rounded-lg appearance-none cursor-pointer
+          [&::-webkit-slider-thumb]:appearance-none
+          [&::-webkit-slider-thumb]:w-4
+          [&::-webkit-slider-thumb]:h-4
+          [&::-webkit-slider-thumb]:border-2
+          [&::-webkit-slider-thumb]:border-[#013D68]
+          [&::-webkit-slider-thumb]:bg-[#EBF3FA]
+          [&::-webkit-slider-thumb]:rounded-full
+          [&::-webkit-slider-thumb]:shadow-md
+          [&::-webkit-slider-thumb]:hover:bg-blue-700
+
+          [&::-moz-range-thumb]:w-4
+          [&::-moz-range-thumb]:h-4
+          [&::-moz-range-thumb]:border-2
+          [&::-moz-range-thumb]:border-[#013D68]
+          [&::-moz-range-thumb]:bg-[#EBF3FA]
+          [&::-moz-range-thumb]:rounded-full
+          [&::-moz-range-thumb]:hover:bg-blue-700
     }
 
 }

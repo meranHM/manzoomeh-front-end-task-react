@@ -5,7 +5,7 @@ import operator2 from './../../assets/home-page/services/operator-2.png'
 const ServiceSupportCard = () => {
   return (
     <article
-      className="w-full max-w-md bg-[#A8BAF9] bg-[url('public/images/support-background.png')] bg-no-repeat bg-bottom lg:row-span-2 flex flex-col justify-center items-center gap-3 rounded-box p-2.5"
+      className="w-full max-w-md bg-[#A8BAF9] bg-[url('/images/support-background.png')] bg-no-repeat bg-bottom lg:row-span-2 flex flex-col justify-center items-center gap-3 rounded-box p-2.5"
     >
       <div className="text-left flex flex-col gap-3">
         <h3 className="font-extrabold text-2xl text-left">24/7 Support</h3>

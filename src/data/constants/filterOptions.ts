@@ -1,3 +1,5 @@
+import qatarAirLogo from "./../../assets/logos/qatar-airways-logo.png"
+
 export const cities = [
     { value: "leipzig", label: "Leipzig" },
     { value: "mallorca", label: "Mallorca" },
@@ -24,4 +26,12 @@ export const ratings = [
 export const priceRange = [
     { value: "most-expensive", label: "Most Expensive" },
     { value: "least-expensive", label: "Least Expensive" },
+]
+
+export const airline = [
+    { value: "iran-air-tours", label: "Iran Air tours", logo: qatarAirLogo },
+    { value: "iran-air-tours", label: "Iran Air tours", logo: qatarAirLogo },
+    { value: "iran-air-tours", label: "Iran Air tours", logo: qatarAirLogo },
+    { value: "iran-air-tours", label: "Iran Air tours", logo: qatarAirLogo },
+    { value: "iran-air-tours", label: "Iran Air tours", logo: qatarAirLogo },
 ]
