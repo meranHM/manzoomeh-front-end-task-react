@@ -1,4 +1,4 @@
-import atlantisHotel from './../../assets/home-page/featured-hotels/atlantis-image.png'
+import atlantisHotel from './../assets/home-page/featured-hotels/atlantis-image.png'
 
 
 export const featuredHotels = [
