@@ -222,4 +222,74 @@ export const allTours = [
         duration: "Sun,6 Jul - Sat , 12 Jul ( 6 nights)",
         foundDate: "39 hours"
     },
+    { 
+        imgSrc: romania1, 
+        title: "Treurer Olive Grove & Grand House - Adults Only + Flight",
+        city: "Algaida",
+        hotelRating: "5 Stars - 10/10 Exceptional (9)",
+        flight: "Leipzig(LEJ)-Palma de mallorca",
+        price: "1,421 $",
+        duration: "Sun,6 Jul - Sat , 12 Jul ( 6 nights)",
+        foundDate: "39 hours"
+    },
+    { 
+        imgSrc: romania1, 
+        title: "Treurer Olive Grove & Grand House - Adults Only + Flight",
+        city: "Algaida",
+        hotelRating: "5 Stars - 10/10 Exceptional (9)",
+        flight: "Leipzig(LEJ)-Palma de mallorca",
+        price: "1,421 $",
+        duration: "Sun,6 Jul - Sat , 12 Jul ( 6 nights)",
+        foundDate: "39 hours"
+    },
+    { 
+        imgSrc: romania1, 
+        title: "Treurer Olive Grove & Grand House - Adults Only + Flight",
+        city: "Algaida",
+        hotelRating: "5 Stars - 10/10 Exceptional (9)",
+        flight: "Leipzig(LEJ)-Palma de mallorca",
+        price: "1,421 $",
+        duration: "Sun,6 Jul - Sat , 12 Jul ( 6 nights)",
+        foundDate: "39 hours"
+    },
+    { 
+        imgSrc: landScape5, 
+        title: "Treurer Olive Grove & Grand House - Adults Only + Flight",
+        city: "Algaida",
+        hotelRating: "5 Stars - 10/10 Exceptional (9)",
+        flight: "Leipzig(LEJ)-Palma de mallorca",
+        price: "1,421 $",
+        duration: "Sun,6 Jul - Sat , 12 Jul ( 6 nights)",
+        foundDate: "39 hours"
+    },
+    { 
+        imgSrc: landScape5, 
+        title: "Treurer Olive Grove & Grand House - Adults Only + Flight",
+        city: "Algaida",
+        hotelRating: "5 Stars - 10/10 Exceptional (9)",
+        flight: "Leipzig(LEJ)-Palma de mallorca",
+        price: "1,421 $",
+        duration: "Sun,6 Jul - Sat , 12 Jul ( 6 nights)",
+        foundDate: "39 hours"
+    },
+    { 
+        imgSrc: landScape5, 
+        title: "Treurer Olive Grove & Grand House - Adults Only + Flight",
+        city: "Algaida",
+        hotelRating: "5 Stars - 10/10 Exceptional (9)",
+        flight: "Leipzig(LEJ)-Palma de mallorca",
+        price: "1,421 $",
+        duration: "Sun,6 Jul - Sat , 12 Jul ( 6 nights)",
+        foundDate: "39 hours"
+    },
+    { 
+        imgSrc: landScape5, 
+        title: "Treurer Olive Grove & Grand House - Adults Only + Flight",
+        city: "Algaida",
+        hotelRating: "5 Stars - 10/10 Exceptional (9)",
+        flight: "Leipzig(LEJ)-Palma de mallorca",
+        price: "1,421 $",
+        duration: "Sun,6 Jul - Sat , 12 Jul ( 6 nights)",
+        foundDate: "39 hours"
+    },
 ]
