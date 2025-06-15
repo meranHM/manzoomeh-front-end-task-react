@@ -1,66 +1,10 @@
+import { cities, durations, ratings, priceRange } from '../../data/constants/filterOptions'
+import { featuredHotels } from '../../data/hotels'
+import HotelCard from "./HotelCard"
 import SelectMenuOne from "./SelectMenuOne"
-import atlantisHotel from './../../assets/home-page/featured-hotels/atlantis-image.png';
-import HotelCard from "./HotelCard";
+
 
 const FeaturedHotelsSection = () => {
-    const cities = [
-        { value: "leipzig", label: "Leipzig" },
-        { value: "mallorca", label: "Mallorca" },
-        { value: "istanbul", label: "Istanbul" },
-        { value: "paris", label: "Paris" },
-        { value: "london", label: "London" },
-        { value: "madrid", label: "Madrid" },
-        { value: "vienna", label: "Vienna" },
-    ]
-    
-    const durations = [
-        { value: "one-to-five-nights", label: "1-5 nights" },
-        { value: "five-to-seven-nights", label: "5-7 nights" },
-        { value: "seven-to-ten-nights", label: "7-10 nights" },
-        { value: "ten-to-fourteen-nights", label: "10-14 nights" },
-        { value: "fourteen-to-thirty-nights", label: "14-30 nights" },
-    ]
-
-    const ratings = [
-        { value: "highest-rating", label: "Highest Rating" },
-        { value: "lowest-rating", label: "Lowest Rating" },
-    ]
-
-    const priceRange = [
-        { value: "most-expensive", label: "Most Expensive" },
-        { value: "least-expensive", label: "Least Expensive" },
-    ]
-
-    const hotels = [
-        {
-            imgSrc: atlantisHotel,
-            alt: "Atlantis Hotel",
-            rating: "4 Star",
-            city: "Chiang Mai",
-            country: "Thailand",
-            description: "Visit the temples and the Chiang Mai Night Bazaar, a huge huge market located on Chiang Klan Road.",
-            price: "$ 490"
-        },
-        {
-            imgSrc: atlantisHotel,
-            alt: "Atlantis Hotel",
-            rating: "4 Star",
-            city: "Chiang Mai",
-            country: "Thailand",
-            description: "Visit the temples and the Chiang Mai Night Bazaar, a huge huge market located on Chiang Klan Road.",
-            price: "$ 490"
-        },
-        {
-            imgSrc: atlantisHotel,
-            alt: "Atlantis Hotel",
-            rating: "4 Star",
-            city: "Chiang Mai",
-            country: "Thailand",
-            description: "Visit the temples and the Chiang Mai Night Bazaar, a huge huge market located on Chiang Klan Road.",
-            price: "$ 490"
-        },
-    ]
-
   return (
     <section
         className="container-center mt-12"
@@ -126,7 +70,7 @@ const FeaturedHotelsSection = () => {
         <div
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 p-6 md:p-4 lg:p-2"
         >
-            {hotels.map((hotel, index) => (
+            {featuredHotels.map((hotel, index) => (
                 <HotelCard
                     key={index}
                     imgSrc={hotel.imgSrc}
