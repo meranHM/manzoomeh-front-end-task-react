@@ -17,6 +17,10 @@
         @apply cursor-pointer transition-colors text-nowrap text-sm font-bold font-manrope
     }
 
+    li a {
+        @apply border-b-2 border-transparent hover:border-current transition-colors duration-300
+    }
+
     ::placeholder {
         @apply text-xs
     }

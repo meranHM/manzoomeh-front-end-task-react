@@ -9,7 +9,7 @@ import carouselImage3 from './../../assets/home-page/promotion-carousel/carousel
 const PromotionCarousel = () => {
   return (
     <section
-        className="container-center mt-28 px-4"
+        className="relative container-center mt-28 px-4"
     >
         {/* Navigation buttons */}
         <CarouselBtn direction="left" onClick={() => {}} />

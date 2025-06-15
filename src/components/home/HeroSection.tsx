@@ -14,7 +14,7 @@ const HeroSection = () => {
     >
         {/* Background layers */}
         <div 
-            className={`absolute inset-0 z-0 bg-[url('/images/yellow-clouds-background.png')] scale-[1.05] bg-right-top hidden lg:block`} 
+            className={`absolute inset-0 z-0 bg-[url('/images/yellow-clouds-background.png')] bg-no-repeat bg-center bg-cover scale-[1.05]  hidden lg:block`} 
         />
 
         <div 
