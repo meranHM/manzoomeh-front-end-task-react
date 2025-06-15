@@ -1,4 +1,5 @@
 import AboutSection from "../components/home/AboutSection"
+import CTASection from "../components/home/CTASection"
 import FeaturedHotelsSection from "../components/home/FeaturedHotelsSection"
 import FeaturedToursSection from "../components/home/FeaturedToursSection"
 import HeroSection from "../components/home/HeroSection"
@@ -21,6 +22,7 @@ const Home = () => {
       <TravelBlogSection />
       <ServicesSection />
       <AboutSection />
+      <CTASection />
     </>
   )
 }

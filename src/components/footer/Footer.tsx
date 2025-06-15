@@ -19,7 +19,7 @@ const Footer = () => {
   const socialIcons = [footerIg, footerFb, footerX, footerYt]
 
   return (
-    <footer className="bg-blue-navy">
+    <footer className="bg-blue-navy py-10">
       <div className="container-center items-center md:items-start">
         <img
           src={footerLogo}
