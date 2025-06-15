@@ -1,7 +1,7 @@
 import Divider from "./Divider"
 import mobileLogo from './../../assets/logos/mobile-logo.png'
 import hamburgerBtn from './../../assets/icons/hamburger-icon.png'
-import LoginBtn from "../design/ButtonOne"
+import ButtonOne from "../design/ButtonOne"
 
 
 interface MobileNavbarProps {
@@ -32,7 +32,9 @@ const MobileNavbar = ({isNavbarOpen, toggleMenu }: MobileNavbarProps) => {
           id="mobile-navbar"
           className={`lg:hidden bg-white fixed top-0 left-0 h-screen w-full z-40 flex flex-col items-center justify-center gap-6 transform transition-transform duration-500 ease-in-out shadow-sm shadow-black ${isNavbarOpen ? "translate-x-0" : "translate-x-full"}`}
         >
-          <LoginBtn />
+          <ButtonOne>
+            Login / Register
+          </ButtonOne>
           
           <ul className="flex flex-col justify-center items-center gap-4">
             <li><a href="#">Flight</a></li>

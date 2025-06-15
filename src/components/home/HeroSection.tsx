@@ -14,11 +14,11 @@ const HeroSection = () => {
     >
         {/* Background layers */}
         <div 
-            className={`absolute inset-0 z-0 bg-[url('/images/yellow-clouds-background.png')] bg-no-repeat bg-center bg-cover scale-[1.05]  hidden lg:block`} 
+            className={`absolute inset-0 z-0 bg-[url('/images/yellow-clouds-background.png')] bg-no-repeat bg-right-top bg-cover scale-[1.05]  hidden lg:block`} 
         />
 
         <div 
-            className="absolute z-10 max-w-1xl xl:max-w-[777px] bottom-0 -right-14 xl:right-[2%] hidden lg:block"
+            className="absolute z-10 max-w-xl xl:max-w-[777px] bottom-0 -right-14 xl:right-[2%] hidden lg:block"
         >
             <img
                 src={bgPerson}

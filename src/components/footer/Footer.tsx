@@ -189,7 +189,7 @@ const Footer = () => {
         </div>
 
         {/* Credits */}
-        <div className="w-full flex justify-between items-center my-4 px-4">
+        <div className="w-full flex flex-col sm:flex-row justify-between items-center gap-2 my-1 sm:px-4">
           <p className="flex items-center gap-2 text-xs text-zinc-600">
             Web Design & Online Reservation By
             <img
