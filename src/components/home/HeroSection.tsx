@@ -2,7 +2,7 @@ import ServiceBtn from "./ServiceBtn"
 import SearchInputBox from "./SearchInputBox"
 import bgPerson from './../../assets/home-page/hero/bg-person.webp'
 import swapBtn from './../../assets/icons/swap.png'
-import ButtonOne from "../header/ButtonOne"
+import ButtonOne from "../design/ButtonOne"
 import plus from './../../assets/icons/plus.png'
 import marker from './../../assets/icons/marker.png'
 

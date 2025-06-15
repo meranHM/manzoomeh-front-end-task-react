@@ -1,7 +1,7 @@
 import Divider from "./Divider"
 import mobileLogo from './../../assets/logos/mobile-logo.png'
 import hamburgerBtn from './../../assets/icons/hamburger-icon.png'
-import LoginBtn from "./ButtonOne"
+import LoginBtn from "../design/ButtonOne"
 
 
 interface MobileNavbarProps {

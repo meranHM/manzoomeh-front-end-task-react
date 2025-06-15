@@ -9,6 +9,10 @@
         @apply w-full bg-white
     }
 
+    h1, h2, h3, p {
+        @apply font-manrope
+    }
+
     button {
         @apply cursor-pointer transition-colors text-nowrap text-sm font-bold font-manrope
     }

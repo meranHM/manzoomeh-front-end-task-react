@@ -1,6 +1,6 @@
 import Divider from "./Divider"
 import desktopLogo from './../../assets/logos/desktop-logo.png'
-import ButtonOne from "./ButtonOne"
+import ButtonOne from "../design/ButtonOne"
 
 const DesktopNavbar = () => {
   return (
