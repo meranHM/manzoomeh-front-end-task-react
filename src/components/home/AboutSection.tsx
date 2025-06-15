@@ -2,8 +2,11 @@ import dottedPathBg from './../../assets/home-page/about/dotted-path.png'
 import { companyFeatures } from '../../data/constants/companyFeatures'
 import FeatureCard from './FeatureCard'
 
+interface AboutSectionProps {
+    bgImageHidden?: boolean
+}
 
-const AboutSection = () => {
+const AboutSection = ({ bgImageHidden }: AboutSectionProps) => {
 
 
   return (
@@ -16,7 +19,7 @@ const AboutSection = () => {
         >
             {/* Background Image */}
             <div
-                className="absolute inset-0 -z-10 overflow-hidden h-96"
+                className={`absolute inset-0 -z-10 overflow-hidden h-96 ${bgImageHidden && "hidden"}`}
             >
                 <img src={dottedPathBg} alt="" className="size-full object-cover"/>
             </div>
