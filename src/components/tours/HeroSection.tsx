@@ -13,33 +13,36 @@ const HeroSection = () => {
             className="w-full bg-blue-ultra-light"
         >
             <section
-                className="w-full max-w-7xl mx-auto flex justify-between px-4"
+                className="w-full max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 px-4"
             >
-                <div>
+                <div
+                    className="self-start p-2"
+                >
                     <h1
-                        className="text-blue-deep font-poppins text-[40px] font-bold"
+                        className="text-blue-deep font-poppins text-2xl sm:text-[40px] font-bold"
                     >
                         Istanbul
                     </h1>
                     <p
-                        className="text-blue-gray font-poppins text-sm"
+                        className="text-blue-gray font-poppins text-nowrap text-xs sm:text-sm"
                     >
                         Home / tour / tour Istanbul
                     </p>
                 </div>
+
                 <div
-                    className="flex items-center gap-16"
+                    className="flex items-center p-2 gap-16"
                 >
                     <div
                         className="flex gap-2"
                     >
-                    <img 
-                        src={clockIcon} 
-                        alt="Clock icon"
-                        width="50"
-                        height="50"
-                        className="w-[50px] h-[50px]"
-                    />
+                        <img 
+                            src={clockIcon} 
+                            alt="Clock icon"
+                            width="50"
+                            height="50"
+                            className="w-[50px] h-[50px]"
+                        />
                         <div
                             className="flex flex-col"
                         >
