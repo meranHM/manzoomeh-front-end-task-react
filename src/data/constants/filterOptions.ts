@@ -35,3 +35,17 @@ export const airline = [
     { value: "iran-air-tours", label: "Iran Air tours", logo: qatarAirLogo },
     { value: "iran-air-tours", label: "Iran Air tours", logo: qatarAirLogo },
 ]
+
+export const blogCategory = [
+    { value: "flight", label: "Flight" },
+    { value: "hotel", label: "Hotel" },
+    { value: "flight-hotel", label: "Flight + Hotel" },
+    { value: "tour", label: "tour" },
+    { value: "insurance", label: "Insurance" },
+    { value: "travel", label: "Travel" },
+]
+
+export const blogOther = [
+    { value: "all-blog", label: "All Blog" },
+    { value: "new-blog", label: "New Blog" },
+]

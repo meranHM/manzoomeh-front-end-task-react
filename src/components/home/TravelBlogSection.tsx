@@ -1,4 +1,4 @@
-import { blogs } from '../../data/blogs'
+import { featuredBlogs } from '../../data/blogs'
 import TravelBlogCard from './TravelBlogCard'
 
 
@@ -34,7 +34,7 @@ const TravelBlogSection = () => {
                 <div
                     className="w-full flex flex-col lg:flex-row lg:flex-wrap xl:flex-nowrap items-center justify-center gap-5 mt-14 px-4 z-20"
                 >
-                    {blogs.map((blog, index) => (
+                    {featuredBlogs.map((blog, index) => (
                         <TravelBlogCard 
                             key={index}
                             imgSrc={blog.imgSrc}

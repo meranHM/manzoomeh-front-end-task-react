@@ -5,15 +5,13 @@ import { useState } from 'react'
 interface Option {
     label: string
     value: string
-    logo: string
 }
 
-interface AirlineFilterPorps {
+interface BlogCategoryFilterProps {
     options: Option[]
 }
 
-
-const AirlineFilter = ({ options }: AirlineFilterPorps) => {
+const BlogCategoryFilter = ({ options }: BlogCategoryFilterProps) => {
     const [isOpen, setIsOpen] = useState(true)
 
     const toggleMenu = () => setIsOpen(!isOpen)
@@ -33,7 +31,7 @@ const AirlineFilter = ({ options }: AirlineFilterPorps) => {
                 <span
                     className="text-base font-semibold font-dana text-[#353535]"
                 >
-                    Airline
+                    Category
                 </span>
                 <span
                     className="w-[14px] h-[7px]"
@@ -59,14 +57,13 @@ const AirlineFilter = ({ options }: AirlineFilterPorps) => {
                                 value={opt.value}
                                 className="appearance-none checked:bg-blue-deep rounded-md border-2 border-[#9A9A9A] w-5 h-5"
                             />
-                            <img src={opt.logo} alt="" width={25} height={22} />
                             {opt.label}
                         </label>
                     ))}
                 </div>
             )}
         </>
-  )
+    )
 }
 
-export default AirlineFilter
+export default BlogCategoryFilter

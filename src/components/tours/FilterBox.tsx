@@ -11,10 +11,12 @@ const FilterBox = () => {
     const [isOpen, setIsOpen] = useState(true)
 
     const toggleMenu = () => setIsOpen(!isOpen)
+
     return (
         <div
             className="w-full max-w-[328px] mx-auto h-fit flex flex-wrap sm:flex-col bg-blue-ultra-light rounded-2xl p-6 space-y-4"
         >
+            {/* Mobile View Show/Hidden Button */}
             <button
                 onClick={toggleMenu}
                 className="w-full flex items-center justify-between p-3 bg-transparent sm:hidden"
@@ -33,6 +35,7 @@ const FilterBox = () => {
                     }
                 </span>
             </button>
+
             {isOpen && (
                 <>
                     <div
@@ -49,10 +52,13 @@ const FilterBox = () => {
                             Remove all filters
                         </button>
                     </div>
+
                     <AirlineFilter 
                         options={airline}
                     />
+
                     <PriceRangeFilter />
+                    
                     <TourDurationFilter />
                 </>
             )}
