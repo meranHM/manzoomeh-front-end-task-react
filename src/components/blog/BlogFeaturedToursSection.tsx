@@ -5,7 +5,7 @@ import { cities, durations, ratings, priceRange } from "../../data/constants/fil
 const BlogFeaturedToursSection = () => {
   return (
     <section
-        className="container-center"
+        className="container-center mt-36"
     >
         <div
             className="lg:flex lg:justify-between lg:items-center lg:px-4 mb-6"

@@ -44,7 +44,7 @@ const AboutSection = ({ bgImageHidden }: AboutSectionProps) => {
 
         {/* Grid Container */}
         <div
-            className="container-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-16 lg:mt-48 p-6"
+            className={`container-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-6 ${bgImageHidden ? "mt-16" : "mt-16 lg:mt-48"}`}
         >
             {companyFeatures.map(feat => (
                 <FeatureCard 
