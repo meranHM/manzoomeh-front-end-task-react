@@ -46,6 +46,7 @@ export default {
         "search-box": "0px 10px 20px 0px #0000000D",
         "hotel-card": "0px 0px 30px 0px #0000001A",
         "hotel-card-rating": "0px 0px 15px 0px #0000001A",
+        "blog-tour-rating": "0px 2px 7px 0px #00000012",
       },
       margin: {
         "30": "123px",

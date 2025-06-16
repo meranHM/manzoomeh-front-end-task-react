@@ -7,7 +7,7 @@ import PopularDestinations from "../components/home/PopularDestinations"
 import PromotionCarousel from "../components/home/PromotionCarousel"
 import ServicesSection from "../components/home/ServicesSection"
 import StatsSection from "../components/home/StatsSection"
-import TravelBlogSection from "../components/home/TravelBlogSection"
+import FeaturedTravelBlogSection from "../components/home/FeaturedTravelBlogSection"
 
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
       <StatsSection />
       <FeaturedHotelsSection />
       <PromotionCarousel />
-      <TravelBlogSection />
+      <FeaturedTravelBlogSection />
       <ServicesSection />
       <AboutSection />
       <CTASection />

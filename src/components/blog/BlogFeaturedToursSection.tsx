@@ -1,5 +1,8 @@
 import SelectMenuOne from "../home/SelectMenuOne"
 import { cities, durations, ratings, priceRange } from "../../data/constants/filterOptions"
+import BlogFeaturedTourCard from "./BlogFeaturedTourCard"
+import { blogFeaturedTours } from "../../data/tours"
+
 
 
 const BlogFeaturedToursSection = () => {
@@ -7,6 +10,7 @@ const BlogFeaturedToursSection = () => {
     <section
         className="container-center mt-36"
     >
+        {/* Headings */}
         <div
             className="lg:flex lg:justify-between lg:items-center lg:px-4 mb-6"
         >
@@ -61,6 +65,26 @@ const BlogFeaturedToursSection = () => {
                     id="price-range"
                 />
             </div>
+        </div>
+
+        {/* Tour Cards Container */}
+        <div
+            className="w-full flex flex-col md:flex-row md:flex-wrap xl:flex-nowrap items-center justify-center gap-3"
+        >
+            {blogFeaturedTours.map((tour, index) => (
+                <BlogFeaturedTourCard 
+                    key={index}
+                    imgSrc={tour.imgSrc}
+                    alt={tour.title}
+                    badge={tour.badge}
+                    title={tour.title}
+                    duration={tour.duration}
+                    date={tour.date}
+                    price={tour.price}
+                    rating={tour.rating}
+                    reviewCount={tour.reviewCount}
+                />
+            ))}
         </div>
     </section>
   )

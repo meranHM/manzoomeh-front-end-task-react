@@ -2,7 +2,7 @@ import { allBlogs } from "../../data/blogs"
 import { useState } from "react"
 import arrLeft from './../../assets/icons/arrow-left-2.png'
 import arrRight from './../../assets/icons/arrow-right-2.png'
-import TravelBlogCard from "../home/TravelBlogCard"
+import TravelBlogCard from "../home/FeaturedTravelBlogCard"
 import BlogFilterBox from "./BlogFilterBox"
 import PaginationBtn from "../tours/PaginationBtn"
 

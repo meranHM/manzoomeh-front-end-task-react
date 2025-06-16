@@ -10,12 +10,13 @@ import istanbul2 from './../assets/tours-page/tours/istanbul-2.png'
 import romania1 from './../assets/tours-page/tours/romania-1.png'
 import manorolaItay1 from './../assets/tours-page/tours/manarola-italy-1.png'
 import cuba1 from './../assets/tours-page/tours/cuba-1.png'
+import blogLandscape1 from './../assets/blog-page/blog-landscape-1.png' 
 
 
 
 
 
-
+/* Featured Tours for Home Page */
 export const featuredTours = [
     {   
         imgSrc: landScape1, 
@@ -100,7 +101,7 @@ export const featuredTours = [
 ]
 
 
-
+/* All Tours for Tours Page */
 export const allTours = [
     { 
         imgSrc: cuba1, 
@@ -291,5 +292,39 @@ export const allTours = [
         price: "1,421 $",
         duration: "Sun,6 Jul - Sat , 12 Jul ( 6 nights)",
         foundDate: "39 hours"
+    },
+]
+
+/* Featured Tours for Blog Page */
+export const blogFeaturedTours = [
+    {
+        imgSrc: blogLandscape1,
+        title: "NYC: Food Tastings and Culture Tour",
+        badge: "Best Sale",
+        duration: "3 days 3 nights",
+        date: "12/12/2024",
+        price: "$17.32",
+        rating: "4.96",
+        reviewCount: "672",
+    },
+    {
+        imgSrc: blogLandscape1,
+        title: "NYC: Food Tastings and Culture Tour",
+        badge: "Best Sale",
+        duration: "3 days 3 nights",
+        date: "12/12/2024",
+        price: "$17.32",
+        rating: "4.96",
+        reviewCount: "672",
+    },
+    {
+        imgSrc: blogLandscape1,
+        title: "NYC: Food Tastings and Culture Tour",
+        badge: "Best Sale",
+        duration: "3 days 3 nights",
+        date: "12/12/2024",
+        price: "$17.32",
+        rating: "4.96",
+        reviewCount: "672",
     },
 ]

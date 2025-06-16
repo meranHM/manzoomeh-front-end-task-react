@@ -1,5 +1,5 @@
 import { featuredBlogs } from '../../data/blogs'
-import TravelBlogCard from './TravelBlogCard'
+import FeaturedTravelBlogCard from './FeaturedTravelBlogCard'
 
 
 const TravelBlogSection = () => {
@@ -35,7 +35,7 @@ const TravelBlogSection = () => {
                     className="w-full flex flex-col lg:flex-row lg:flex-wrap xl:flex-nowrap items-center justify-center gap-5 mt-14 px-4 z-20"
                 >
                     {featuredBlogs.map((blog, index) => (
-                        <TravelBlogCard 
+                        <FeaturedTravelBlogCard 
                             key={index}
                             imgSrc={blog.imgSrc}
                             alt={blog.alt}
