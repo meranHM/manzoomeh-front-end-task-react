@@ -48,6 +48,7 @@ const NewsSection = () => {
                     badge={blog.badge}
                     time={blog.time}
                     date={blog.date}
+                    avatarShown={true}
                 />
             ))}
         </div>

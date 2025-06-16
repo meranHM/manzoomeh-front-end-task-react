@@ -1,5 +1,6 @@
 import calenderIcon from './../../assets/icons/calender.png'
 import clockIcon from './../../assets/icons/clock.png'
+import avatar from './../../assets/blog-page/avatar.png'
 
 interface TravelBlogCardProps {
     imgSrc: string
@@ -8,10 +9,11 @@ interface TravelBlogCardProps {
     date: string
     time: string
     title: string
+    avatarShown?: boolean
 }
 
 
-const TravelBlogCard = ({ imgSrc, alt, badge, date, time, title }: TravelBlogCardProps) => {
+const TravelBlogCard = ({ imgSrc, alt, badge, date, time, title, avatarShown }: TravelBlogCardProps) => {
   return (
     <article
         className="relative rounded-box overflow-hidden w-full max-w-[413px] h-[544px]"
@@ -27,7 +29,7 @@ const TravelBlogCard = ({ imgSrc, alt, badge, date, time, title }: TravelBlogCar
             {badge}
         </span>
         <div
-            className="absolute flex flex-col justify-between rounded-box bg-white border border-gray-ultra-light z-10 bottom-0 left-0 w-full h-1/2 p-8"
+            className="absolute flex flex-col justify-between rounded-box bg-white border border-gray-ultra-light z-10 bottom-0 left-0 w-full h-1/2 p-4"
         >
             <div
                 className="flex gap-4"
@@ -58,15 +60,34 @@ const TravelBlogCard = ({ imgSrc, alt, badge, date, time, title }: TravelBlogCar
                 </span>
             </div>
             <h3
-                className="font-bold text-xl text-left"
+                className="font-bold text-base md:text-lg lg:text-xl text-left"
             >
                 {title}
             </h3>
-            <button
-                className="bg-gray-ultra-light rounded-pill border border-gray-soft text-black px-4 py-2 self-end"
+            <div
+                className="w-full flex justify-between"
             >
-                Keep Reading
-            </button>
+                {avatarShown && (
+                    <span
+                        className="hidden lg:flex lg:flex-col xl:flex-row items-center font-bold text-xs xl:text-nowrap gap-1"
+                    >
+                        <img 
+                            src={avatar}
+                            alt="Avatar picture"
+                            width={32}
+                            height={32}
+                            className="w-8 h-8"
+                        />
+                        Jimmy Dave
+                    </span>
+                )}
+
+                <button
+                    className="bg-gray-ultra-light rounded-pill border border-gray-soft text-black px-4 py-2 self-end"
+                >
+                    Keep Reading
+                </button>
+            </div>
         </div>
     </article>
   )

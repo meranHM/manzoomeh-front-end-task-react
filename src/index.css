@@ -21,6 +21,10 @@
         @apply border-b-2 border-transparent hover:border-current transition-colors duration-300
     }
 
+    select {
+        @apply font-manrope font-medium cursor-pointer text-sm hover:shadow-sm hover:shadow-gray-medium transition-shadow
+    }
+
     ::placeholder {
         @apply text-xs
     }
