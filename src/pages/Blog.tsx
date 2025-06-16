@@ -1,7 +1,11 @@
+import BlogHeroSection from "../components/blog/BlogHeroSection"
+
 
 const Blog = () => {
   return (
-    <div>Blog</div>
+    <>
+      <BlogHeroSection />
+    </>
   )
 }
 

@@ -10,7 +10,7 @@ const HeroSection = () => {
     >
         {/* Headings */}
         <div
-            className="w-full bg-blue-ultra-light"
+            className="w-full bg-blue-ultra-light py-4"
         >
             <section
                 className="w-full max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 px-4"
